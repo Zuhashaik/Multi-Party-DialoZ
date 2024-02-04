@@ -61,5 +61,4 @@ def pipelined_process(data_path, sentext_height=3):
     test_df = pd.read_json(data_path)
     test_df = split_concat(sentext_height, test_df)
     processed_data = get_prompt_dataset_test(test_df)
-    # processed_data.to_csv(f'test_all_zds_h{sentext_height}.csv', index=False)
     return processed_data
