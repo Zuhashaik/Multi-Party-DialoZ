@@ -14,4 +14,4 @@ MELD-EFR-Z
 "oc-3-1_train_val" ep2 12138-step |val-0.9569|test-0.7394| -->
 
 ## Inference
-Inference dir contains notebooks to generate predictions for a file in that particular tasks
+The 'Inference' directory contains notebooks to generate predictions for a test file in that particular task."
